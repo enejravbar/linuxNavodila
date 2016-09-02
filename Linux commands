@@ -1,0 +1,7 @@
+
+FORMATIRANJE SD KARTICE 
+
+sudo mkdosfs -F 32 -v /dev/mmcblk0
+
+sudo pkill -USR1 -x dd   // preverjanje statusa dd-ja
+
